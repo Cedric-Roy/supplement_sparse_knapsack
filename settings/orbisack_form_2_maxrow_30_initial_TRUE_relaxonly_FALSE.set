@@ -1,0 +1,9 @@
+constraints/knapsack/usesparseknapsacks = FALSE
+misc/usesymmetry = 1
+constraints/orbisack/sepafreq = 1
+constraints/orbisack/propfreq = 1
+propagating/symmetry/usedynamicprop = FALSE
+propagating/symmetry/orbisackformulation = 2
+propagating/symmetry/orbisackmaxrows = 30
+propagating/symmetry/efisinitial = TRUE
+propagating/symmetry/isrelaxonly = FALSE

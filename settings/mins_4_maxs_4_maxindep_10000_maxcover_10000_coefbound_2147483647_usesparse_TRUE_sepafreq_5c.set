@@ -1,0 +1,14 @@
+constraints/knapsack/sparsity = 4
+constraints/knapsack/minsparsity = 4
+constraints/knapsack/maxnindepsets = 10000
+constraints/knapsack/maxncovers = 10000
+constraints/knapsack/separateclassiccuts = TRUE
+constraints/knapsack/separatesparsecuts = FALSE
+constraints/knapsack/coefupperbound = 2147483647
+constraints/knapsack/usesparseknapsacks = TRUE
+constraints/knapsack/scipsepafreq = 0
+constraints/knapsack/usesparsegubs = TRUE
+constraints/knapsack/handlesmallunitweights = FALSE
+constraints/knapsack/allowcomplcovermethod = TRUE
+constraints/knapsack/sepafreq = 5
+propagating/symmetry/orbisackformulation = 0
