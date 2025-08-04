@@ -90,7 +90,7 @@ We have collected logs of all our experiments that are provided in the tarball `
 
 > scripts/evaluate_knapsack_experiments.sh <path/to/results>
 
-to create the tables for the experiments on sparse knapsacks and
+from within the directory `scripts` to create the tables for the experiments on sparse knapsacks and
 
 > scripts/evaluate_orbisack_experiments.sh <path/to/results>
 
