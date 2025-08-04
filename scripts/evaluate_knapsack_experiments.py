@@ -136,7 +136,7 @@ def evaluate_statistics(statistics, affThreshold, timelimit):
     times = [0, 100, 1000, 3000, 6000]
 
     for mintime in times:
-        selected_instances = get_selected_instances(statistics, settings, affected_instances, mintime, 7200, SEMIHARD)
+        selected_instances = get_selected_instances(statistics, settings, affected_instances, mintime, timelimit, SEMIHARD)
         fill = get_fill(mintime)
         line = f"({mintime},{timelimit}){fill} & ({len(selected_instances)})"
         for sett in settings:
